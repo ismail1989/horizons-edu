@@ -1,23 +1,137 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  company:
+    name: "Agile Academy"
+    intro: "Agile Academy aims to build a conscious generation that seeks to build its future with science and knowledge and thus begin and commit by fortifying our students with international certificates proving their ability to do this significant job."
+    address: " 221,254,293,349 HanPlus Tower 150, Dogan Arasli Bolv, Esenyurt - Istanbul"
+    telephone1: "Phone1 : +90 212 620 4041"
+    telephone2: "Phone2 : +90 212 699 9009"
+    mobile1: "mobile1 : +90 553 768 1142"
+    mobile2: "mobile2 : +90 505 022 3522"
+    email: "E-mail : info@agile-tec.com"
+
+  mainmenu:
+    homename: "Home"
+    courses: "Paths"
+    aboutname: "About"
+    blog: "Blog"
+    login: "Log In"
+    creataccount: "Create account"
+    dashboard: "User Dashboard"
+  
+  footer:
+    home: "Home"
+    paths: "Paths"
+    about: "About Agile"
+    blog: "Agile Blog"
+    members: "Members"
+    contact: "Contact Us"
+    faqs: "FAQs"
+    marketing: "Marketing"
+    design: "Design"
+    it: "Information Tech"
+    lang: "Languages"
+    header1: "Agile Academy"
+    socialhead: "Connect & Share"
+    terms: "Terms & Conditions and Refund Policies"
+    lagalname: "AGİLE ACADEMY EĞİTİM HİZMETLERİ TİCARET LİMİTED ŞİRKETİ"
+    lagaladdress: "legaladdress"
+    copymark: "© Copyright 2015-2017"
+    companyname: " Agile Academy, Ltd."
+    allrights: "All rights reserved"
+    ethical: "Ethical code and disciplinary rules."
+    smterms: "Terms & Conditions"
+
+
+  blog:
+    newblogtitle: "New Blog Article"
+
+
+  tronname: "Agile Academy"
+  membername: "Members "
+  logingname: "Log In"
+  createusergname: "Create Account"
+  dashboardgname: "My Dashboard"
+  logoutgname: "Log Out"
+  searchbutton: "Submit"
+  searchplaceholder: "Search"
+  newblogbutton: "New Blog"
+
+  cta:
+    homecta1: "Launch Your Success"
+    livecta1: "Join Virtual Class"
+    livectaintro: "Dear Student, you can join you virtual classroom from here."
+    explore-more: "Explore Pathway"
+    gohome: "Go Home"
+    
+    
+  featured-cta:
+    certificate-h1: "Global Certificate"
+    certificate-txt: "We worked that out just for you, Since we know how important for you to be armed with certifications form a global awarding bodies like AWS, google, Hotspot, BTEC and more"
+    pathway-h1: "Pathways Learning"
+    pathway-txt: "Agile's teachers and academies have made the necessary preparations to get practical and required work experience in marketing, electronic maintenance, site programming, photography and more."
+    distancelearning-h1: "Distance learning"
+    distancelearning-txt: "Agile provides you with all the necessary platforms and tools of distance education ready for you to access knowledge before you reach our seats, applying our methodology - success no less -"
+    readmore: "Read More"
+    explore-more: "Explore Pathway"
+    
+  featured-pathways:
+    header: "Featured Pathways"
+    small: " Choose your way"
+    marketing: "Marketing & Business"
+    marketing-intro: "Inbound Marketing, Content Optimization Systems, Google Adwords, Facebook Business and more."
+    design: "Creative Design"
+    design-intro: "Photo Editing, Video Editing, 3D Programs, Photography,Sound Engineering, Drawing and more."
+    it: "Information Technology"
+    it-intro: "Web design, General Programing, Java, Ruby, JavaScript , php, SQL, Office Programs and more."
+    lang: "Languages"
+    lang-intro: "We at Agile Academy offers Genuine English Courses and we are Authorized from Pearson BTEC UK"
+    
+  featured-courses:
+    header: "Featured Courses"
+    small: " Learn More"
+    inbound: "Inbound Marketing"
+    inbound-intro: "Inbound Marketing is the process of attracting the attention of prospects, via content creation, before they are even ready to buy; it's one of the best and most cost-effective ways to convert strangers into customers and promoters of your business."
+    Adwords: "Adwords From Google"
+    Adwords-intro: "Google AdWords is Google's advertising system in which advertisers bid on certain keywords in order for their clickable ads to appear in Google's search results. Since advertisers have to pay for these clicks, this is how Google makes money from search."
+    Facebook: "Facebook Business"
+    Facebook-intro: "Use this guide to create relevant and actionable ads for all the right people whether they're visiting Facebook from home, work or from their mobile devices. and good understanding to any tools needed to achive a succesfull advertising."
+
+  courses:
+    breadcrumb-home: "Home"
+    breadcrumb-paths: "Paths"
+    breadcrumb-marketing: "Marketing & Business"    
+    breadcrumb-design: "Creative Design" 
+    breadcrumb-it: "Information Technology" 
+    breadcrumb-lang: "Languages"
+    
+  paths:
+    pathcontacttitle: "Path contact details"
+    pathvideotitle: "Path Introduction"
+    pathdetail: "Path Details"
+    marketing-pathquot: "Whether B2B or B2C, I believe passionately that good marketing essentials are the same. We all are emotional beings looking for relevance, context and connection."
+    marketing-pathquottold: "Beth Comstock"
+    marketing-pathdetailbody: "In this path you will focus on contents and creating it in creative way and leverage it with smart social media channels and Search engines."
+    marketing-pathcontact1: "Mahmoud Matar"
+    marketing-pathcontact2: "(0553) 768 1142"
+    marketing-pathcontact3: "mahmoud@agile-tec.com"
+    
+    design-pathquot: "There are three responses to a piece of design – yes, no, and WOW! ...."
+    design-pathquottold: "Milton Glaser"
+    design-pathdetailbody: "In this path you will improve your design and creativity skills with most wanted program and systems in photo editing, video and 3D."
+    design-pathcontact1: "Mahmoud Matar"
+    design-pathcontact2: "(0553) 768 1142"
+    design-pathcontact3: "mahmoud@agile-tec.com"
+    
+    it-pathquot: "The real problem is not whether machines think but whether men do."
+    it-pathquottold: "B.F.Skinner Quotes"
+    it-pathdetailbody: "This path structured to fulfil your passion in information technology whether that in Programing or Networking or DB or any other IT related hot titles."
+    it-pathcontact1: "Mahmoud Matar"
+    it-pathcontact2: "(0553) 768 1142"
+    it-pathcontact3: "mahmoud@agile-tec.com"
+    
+    lang-pathquot: "You can never understand one language until you understand at least two."
+    lang-pathquottold: "Geoffrey Willans"
+    lang-pathdetailbody: "it goes without saying, when you speak more than 1 language you can find another place to be. We provide a powerful language learning courses directly from Pearson UK and we are authorized center."
+    lang-pathcontact1: "Mahmoud Matar"
+    lang-pathcontact2: "(0553) 768 1142"
+    lang-pathcontact3: "mahmoud@agile-tec.com"

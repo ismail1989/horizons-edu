@@ -1,0 +1,81 @@
+<div class="main-page" dir="rtl">
+   <!-- main-banner -->
+    <div class="main-banner" style="margin-bottom:10px">
+        <img class="img-responsive img-rounded" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/paths/marketing.jpg">
+    </div>
+    <!-- post-widgets -->
+    <div class="row">
+        <div class="col-md-8">
+            <ol class="breadcrumb">
+              <li><a href="/ar"><%= t('courses.breadcrumb-home') %></a></li>
+              <li><a href="paths"><%= t('courses.breadcrumb-paths') %></a></li>
+              <li class="active"><%= t('courses.breadcrumb-marketing') %></li>
+            </ol>
+            <div class="row">
+                <div class="col-md-3">
+                    <img style="padding-top:20px;" class="img-responsive" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/courses/marketing/inbound.jpg">
+                </div>
+                <div class="col-md-9">
+                    <h3 style="font-family:Tahoma, Geneva, sans-serif; font-size:20px"><%= link_to t('featured-courses.inbound'), courses_inbound_path %></h3>
+                        <div class="content">
+                            <p style="font-family:Tahoma, Geneva, sans-serif;"><small>رمز الدبلوم : <b>AG41IM</b></small></p>
+                            <p style="font-family:Tahoma, Geneva, sans-serif; font-size:14px"><%= t('featured-courses.inbound-intro') %></p>
+                        </div>
+                    <h5><a href="#"><%= t('featured-cta.readmore') %></a></h5>
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img style="padding-top:20px;" class="img-responsive" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/courses/marketing/adword.jpg">
+                </div>
+                <div class="col-md-9">
+                    <h3 style="font-family:Tahoma, Geneva, sans-serif; font-size:20px"><%= link_to t('featured-courses.Adwords'), courses_adword_path %></h3>
+                        <div>
+                            <p style="font-family:Tahoma, Geneva, sans-serif;"><small>رمز الدبلوم :<b>AG42GA</b></small></p>
+                            <p style="font-family:Tahoma, Geneva, sans-serif; font-size:14px"><%= t('featured-courses.Adwords-intro') %></p>
+                        </div>
+                    <h5><a href="read-more"><%= t('featured-cta.readmore') %></a></h5>
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img style="padding-top:20px;" class="img-responsive" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/courses/marketing/fb.jpg">
+                </div>
+                <div class="col-md-9">
+                    <h3 style="font-family:Tahoma, Geneva, sans-serif; font-size:20px"><%= link_to t('featured-courses.Facebook'), courses_facebook_path %></h3>
+                        <div>
+                            <p style="font-family:Tahoma, Geneva, sans-serif;"><small>رمز الدبلوم :<b>AG43FB</b></small></p>
+                            <p style="font-family:Tahoma, Geneva, sans-serif; font-size:14px"><%= t('featured-courses.Facebook-intro') %></p>
+                        </div>
+                    <h5><a href="read-more"><%= t('featured-cta.readmore') %></a></h5>
+                </div>                
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <h4><%= t("paths.pathvideotitle")%></h4>
+            <div class="embed-responsive embed-responsive-16by9 thumbnail">
+                <iframe src="https://www.youtube.com/embed/O-GgUXwXoGU" frameborder="8" allowfullscreen></iframe>
+            </div>
+            <p></p>
+            <div>
+                <blockquote>
+                      <p><%= t("paths.marketing-pathquot")%></p>
+                      <small><%= t("paths.marketing-pathquottold")%></small>
+                </blockquote>
+            </div>
+            <hr>
+            <div class="list-group">
+                <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading"><%= t("paths.pathdetail")%></h4>
+                <p class="list-group-item-text"><%= t("paths.marketing-pathdetailbody")%></p>
+                </a>
+                <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading"><%= t("paths.pathcontacttitle")%></h4>
+                <p class="list-group-item-text"><b><%= t("paths.marketing-pathcontact1")%></b><br><%= t("paths.marketing-pathcontact2")%><br><%= t("paths.marketing-pathcontact3")%></p>
+                </a>
+            </div>
+            <hr>
+        </div>
+    </div>
+</div><!-- main-page -->

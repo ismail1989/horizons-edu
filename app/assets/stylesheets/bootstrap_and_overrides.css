@@ -1,0 +1,76 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Use Font Awesome icons (default)
+  To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
+  =require twitter-bootstrap-static/fontawesome
+  */
+@media (max-width: 500px) {
+  
+  /* this to show mobile menu in new block */
+  #bs-example-navbar-collapse-1{
+    clear: both ; 
+  }
+  
+  /* this to remove right padding in mobile menu arabic */
+  .asd {
+    padding-right: 0px !important
+  }
+  
+  /* this is to move li english left in mobile */
+  .asd2 {
+   padding-left: 15px
+  }
+  
+  /* .smbtn {
+    padding: 4px 6px;
+    font-size: 12px;
+    line-height: 1.33;
+    border-radius: 6px;
+    padding-bottom: 5px;
+  } */
+  .indecatorsnew {
+     margin-bottom:0px!important;
+  }
+}
+
+.indecatorsnew {
+   margin-bottom:35px;
+}
+
+.jumbotron {
+    border-radius:0px!important;
+    box-shadow:1px 1px 4px rgba(0,0,0,0.3);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #f8f8f8 ;
+    background-image: url(https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/paths/marketing-path.jpg);
+    position: relative;
+    height: 100%;
+}
+
+.jumbotroon {
+    background-image: url(https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/paths/design-path.jpg);
+}
+
+.jumbotrooon {
+    background-image: url(https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/paths/it-path.jpg);
+}
+
+.jumbotroooon {
+    background-image: url(https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/paths/lang-path.jpg);
+}
+
+.breadcrumb {
+  margin-bottom:5px ;
+}
+
+.navbar {
+  margin-bottom: 5px;
+}
+
+.minilogo {
+  padding: 5px;
+}
+

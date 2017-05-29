@@ -1,0 +1,111 @@
+<div class="padding-top-fiftheen-px"></div>
+<footer id="footer">
+  <div class="container">
+    <!-- Row 1 Footer -->
+    <div class="row">
+      <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <p><a href="/en" class="footerlink" rel="index,follow" title="Header 1"><%= t('footer.home') %></a></p>
+          <p><a href="/en/pages/faqs" class="footerlink" rel="index,follow" title="Header 1"><%= t('footer.faqs') %></a></p>
+          <p><a href="/en/pages/about" class="footerlink" rel="index,follow" title="Header 1"><%= t('footer.about') %></a></p>
+          <p><a href="/en/pages/blog" class="footerlink" rel="index,follow" title="Header 1"><%= t('footer.blog') %></a></p>
+          <p><a href="/en/pages/members" class="footerlink" rel="index,follow" title="Header 1"><%= t('footer.members') %></a></p>
+          <p><a href="/en/pages/contactus" class="footerlink" rel="index,follow" title="Header 1"><%= t('footer.contact') %></a></p>
+          <p><a href="#" class="footerlink" rel="index,follow" title="Header 1"><%= t('footer.smterms') %></a></p>
+          <div class="align-text-right hidden-lg hidden-md hidden-sm">
+            <!-- <a href="#" id="ButtonLink" class="btn btn-warning btn-sm">more<i class="fa fa-chevron-right padding-left-five-px"></i></a> -->
+            <div class="clearfix"></div>
+            <hr class="color-white">
+            <div class="mouse-help"></div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <p><a href="/en/pages/marketing" class="footerlink" rel="follow" title="Header 2"><%= t('footer.marketing') %></a></p>
+          <p><a href="/en/pages/design" class="footerlink" rel="follow" title="Header 2"><%= t('footer.design') %></a></p>
+          <p><a href="/en/pages/it" class="footerlink" rel="follow" title="Header 2"><%= t('footer.it') %></a></p>
+          <p><a href="/en/pages/lang" class="footerlink" rel="follow" title="Header 2"><%= t('footer.lang') %></a></p>
+          <p><a href="/en/cta/distancelearning" class="footerlink" rel="follow" title="Header 2"><%= t('featured-cta.distancelearning-h1') %></a></p>
+          <p><a href="/en/cta/pathway" class="footerlink" rel="follow" title="Header 2"><%= t('featured-cta.pathway-h1') %></a></p>
+          <p><a href="/en/cta/certificate" class="footerlink" rel="follow" title="Header 2"><%= t('featured-cta.certificate-h1') %></a></p>
+        <div class="align-text-right hidden-lg hidden-md hidden-sm">
+            <!-- <a href="#" id="ButtonLink" class="btn btn-warning btn-sm">more<i class="fa fa-chevron-right padding-left-five-px"></i></a> -->
+            <div class="clearfix"></div>
+            <hr class="color-white">
+            <div class="mouse-help"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <a href="#" class="footerlink" rel="follow" title="Header 3"><%= t('footer.header1') %></a>
+          <p class="text-muted small padding-top-fiftheen-px"><%= t('company.intro') %></p>
+          <div class="align-text-left">
+            <p style="color:#fff;">Change Site language
+              <button href="#" id="ButtonLink" class="btn btn-link">
+                  <% if I18n.locale == I18n.default_locale %>
+                    <%= link_to "English ", { :locale=>'en' } %>
+                  <% else %>
+                    <%= link_to "اللغة العربية", { :locale=>'ar'} %>
+                  <% end %>
+              </button>
+            </p>
+            <div class="clearfix"></div>
+            <div class="mouse-help"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-xs-12 clearfix hidden-lg hidden-md">
+        <div class="padding-top-fiftheen-px"></div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 column text-center">
+        <div align="center">
+        <img class="img-responsive" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/logo/footerlogo.png">
+        </div>
+        <span class="social-sharing"><%= t('footer.socialhead') %></span>
+        <div class="clearfix hidden-md hidden-sm hidden-xs padding-top-fiftheen-px"></div>
+        <div class="clearfix hidden-lg hidden-md hidden-sm padding-top-ten-px"></div>
+        <div class="clearfix hidden-lg hidden-xs">
+          <hr class="primary">
+        </div>
+        <div class="col-lg-12 text-center clearfix">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 no-padding">
+            <div class="col-sm-6 col-xs-6"><a href="https://www.facebook.com/agiletrainingcenter" title="Share on Facebook" class="social-sharing" target="_blank"><i class="fa fa-2x fa-facebook-square"></i></a></div>
+            <div class="col-sm-6 col-xs-6"><a href="https://twitter.com/agileacademyist" title="Share on Twitter" class="social-sharing" target="_blank"><i class="fa fa-2x fa-twitter-square"></i></a></div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 no-padding">
+            <div class="col-sm-6 col-xs-6"><a href="https://www.instagram.com/" title="Share on Instagram" rel="index,follow" class="social-sharing" target="_blank"><i class="fa fa-2x fa-instagram"></i></a></div>
+            <div class="col-sm-6 col-xs-6"><a href="https://www.linkedin.com/company/agile-training-center" title="Share on LinkedIn" rel="index,follow" class="social-sharing" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a></div>
+          </div>
+          <div class="col-sm-12 col-xs-12 clearfix hidden-lg hidden-md hidden-sm padding-top-eight-px"></div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 no-padding">
+            <div class="col-sm-6 col-xs-6"><a href="https://www.pinterest.com/" title="Share on Pinterest" rel="index,follow" class="social-sharing" target="_blank"><i class="fa fa-2x fa-pinterest-square"></i></a></div>
+            <div class="col-sm-6 col-xs-6"><a href="https://www.youtube.com/channel/UCebM23hN9nHRBfI_u2YeouA" title="Share on YouTube" rel="index,follow" class="social-sharing" target="_blank"><i class="fa fa-2x fa-youtube-square"></i></a></div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 no-padding">
+            <div class="col-sm-6 col-xs-6"><a href="https://play.google.com/store/apps/" title="Download from Google Play" rel="index,follow" class="social-sharing" target="_blank"><i class="fa fa-2x fa-android"></i></a></div>
+            <div class="col-sm-6 col-xs-6"><a href="https://itunes.apple.com/us/app/" rel="index,follow" title="Download from Apple Store" class="social-sharing" target="_blank"><i class="fa fa-2x fa-apple"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Row 1 Footer -->
+    
+    <hr>
+    
+    <!-- Row 2 Footer -->
+    <div class="col-lg-12 col-md-12 no-padding">
+      <div class="hidden-sm hidden-xs">
+        <div class="col-lg-8 col-md-8 align-text-left">
+          <span class="text-muted small"><%= t('footer.copymark') %> | <%= t('footer.terms') %> | <%= t('footer.ethical') %> <br> <%= t('footer.lagalname') %></span>
+        </div>
+        <div class="col-lg-4 col-md-4 align-text-right">
+          <span class="text-muted small"><%= t('footer.copymark') %><a href="http:/www.agile-tec.com" title="Agile Academy, Ltd" rel="index,follow" target="_blank"> Agile Academy, Ltd.</a><br>All rights reserved.</span>
+        </div>
+      </div>
+      <div class="hidden-lg hidden-md text-justify no-padding-no-margin">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-padding" align="center">
+          <span class="text-muted small"><%= t('footer.copymark') %> <br> <%= t('footer.terms') %> <br> <%= t('footer.ethical') %> <br> <%= t('footer.lagalname') %></span>
+        </div>
+      </div>
+    </div>
+    <!-- /Row 2 Footer -->
+  </div>
+</footer>

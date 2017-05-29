@@ -1,0 +1,88 @@
+<div class="main-page">
+   <!-- main-banner -->
+    <div class="main-banner" style="margin-bottom:10px">
+        <img class="img-responsive img-rounded" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/paths/lang.jpg">
+    </div>
+    <!-- post-widgets -->
+    <div class="row">
+        <div class="col-md-8">
+            <ol class="breadcrumb">
+              <li><a href="/en"><%= t('courses.breadcrumb-home') %></a></li>
+              <li><a href="paths"><%= t('courses.breadcrumb-paths') %></a></li>
+              <li class="active"><%= t('courses.breadcrumb-lang') %></li>
+            </ol>
+            <div class="row">
+                <div class="col-md-3">
+                    <img style="padding-top:20px;" class="img-responsive" src="http://placehold.it/350x250">
+                </div>
+                <div class="col-md-9">
+                    <h3><%= link_to t('featured-courses.inbound'), courses_inbound_path %></h3>
+                        <div class="content">
+                            <p><%= t('featured-courses.inbound-intro') %></p>
+                        </div>
+                    <h5><a href="#">Read More</a></h5>
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img style="padding-top:20px;" class="img-responsive" src="http://placehold.it/350x250">
+                </div>
+                <div class="col-md-9">
+                    <h3><%= link_to t('featured-courses.Adwords'), courses_adword_path %></h3>
+                        <div>
+                            <p><%= t('featured-courses.Adwords-intro') %></p>
+                        </div>
+                    <h5><a href="read-more">Read More</a></h5>
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img style="padding-top:20px;" class="img-responsive" src="http://placehold.it/350x250">
+                </div>
+                <div class="col-md-9">
+                    <h3><%= link_to t('featured-courses.Facebook'), courses_facebook_path %></h3>
+                        <div>
+                            <p><%= t('featured-courses.Facebook-intro') %></p>
+                        </div>
+                    <h5><a href="read-more">Read More</a></h5>
+                </div>                
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+        <hr>
+            <div>
+                <blockquote>
+                      <p><%= t("paths.lang-pathquot")%></p>
+                      <small><%= t("paths.lang-pathquottold")%></small>
+                </blockquote>
+            </div>
+            <hr>
+            <div>
+                <div class="panel panel-primary">
+                  <div class="panel-heading">
+                    <h3 class="panel-title"><%= t("paths.pathdetail")%></h3>
+                  </div>
+                  <div class="panel-body">
+                    <%= t("paths.lang-pathdetailbody")%>
+                  </div>
+                </div>
+            </div>
+            <hr>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><%= t("paths.pathcontacttitle")%></h3>
+                </div>
+                <div class="panel-body">
+                    <b><%= t("paths.lang-pathcontact1")%></b><br><%= t("paths.lang-pathcontact2")%><br><%= t("paths.lang-pathcontact3")%>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+</div><!-- main-page -->
+   
+   
+   
+   
+   

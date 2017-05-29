@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Raleway');
+.align-text-left {text-align: left;}
+.align-text-right {text-align: right;}
+.color-white {color: #FFF;}
+.padding-top-ten-px {padding-top: 10px;}
+.padding-top-fiftheen-px {padding-top: 15px;}
+.no-padding {padding: 0; margin: 0;}
+.primary {border-bottom: solid 2px #8ea3bc; width: 40%;}
+.social-sharing {color: #C3C3C3;font-size: 14px;font-weight: 600;transition: all .25s;cursor: pointer;font-family: 'Raleway', sans-serif;}
+a.social-sharing:link {color: #a4a4a4;  font-size: 14px;  font-weight: 600;  transition: all .25s;  cursor: pointer;  font-family: 'Raleway', sans-serif;}
+a.social-sharing:hover {color: #529ff9;  font-size: 14px;  font-weight: 600;  transition: all .25s;  cursor: pointer;  font-family: 'Raleway', sans-serif;}
+.footer1 {
+    background-image: url(https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/logo/footerlogo.png)
+}
+footer {background-color: #252f3b;  padding: 25px; padding-top: 40px;}
+a.footerlink {color: #f0f0f0;  font-size: 15px;  font-weight: 600;  transition: all .25s;  cursor: pointer;  text-decoration: none;font-family: 'Raleway', sans-serif;}
+a.footerlink:hover {color: #529ff9;font-size: 15px;font-weight: 600;transition: all .35s;cursor: pointer;text-decoration: none;}
+p,span {font-family: 'Droid Sans', sans-serif;}

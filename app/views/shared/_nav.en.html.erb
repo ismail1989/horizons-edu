@@ -1,0 +1,72 @@
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img class="img-responsive minilogo" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/logo/headlogo.png">
+      <!-- <a class="navbar-brand" href="#"><%= t('company.name') %></a> -->
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><%= link_to t('mainmenu.homename'), root_path %></li>
+
+
+        <li>
+        <ul class="nav navbar-nav navbar-left asd2">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= t('mainmenu.courses') %><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a><%= link_to t("featured-pathways.marketing"), pages_marketing_path %></a></li>
+                <li><a><%= link_to t("featured-pathways.design"), pages_design_path %></a></li>
+                <li><a><%= link_to t("featured-pathways.it"), pages_it_path %></a></li>
+                <li><a><%= link_to t("featured-pathways.lang"), pages_lang_path %></a></li>
+              </ul>
+          </li>
+        </ul>
+        </li>
+
+
+
+
+        <li><%= link_to t('mainmenu.aboutname'), pages_about_path %></li>
+        <li><%= link_to t('mainmenu.blog'), pages_blog_path %></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-left">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= t('membername') %><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <% if !user_signed_in? %>
+            <li><a><%= link_to t("mainmenu.login"), new_user_session_path %></a></li>
+            <li><a><%= link_to t("mainmenu.creataccount"), new_user_registration_path %></a></li>
+            <% end %>
+            
+            <% if user_signed_in? %>
+              <li><a><%= t('dashboardgname') %></a></li>
+              <li role="separator" class="divider"></li>
+              <li><a rel="nofollow" href="/users/sign_out" data-method="delete"><%= t('logoutgname') %></a></li>
+            <% end %>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right">
+        <!--<div class="form-group">
+          <input type="text" class="form-control" placeholder="<%= t('searchplaceholder') %>">
+        </div>
+        <button type="submit" class="btn btn-default"><%= t('searchbutton') %></button> -->
+        <button class="btn btn-default">
+            <% if I18n.locale == I18n.default_locale %>
+              <%= link_to "English ", { :locale=>'en' } %>
+            <% else %>
+              <%= link_to " العربية", { :locale=>'ar'} %>
+            <% end %>
+        </button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

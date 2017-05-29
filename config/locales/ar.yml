@@ -1,0 +1,139 @@
+ar:
+  company:
+    name: "أكاديمية أجايل"
+    intro: "أكاديمية أجايل تهدف لبناء جيل واعِ يسعى لبناء أوطانه بالعلم والمعرفة وبذلك نبدأ ونلتزم عن طريق تحصين طلابنا بشهادات عالمية تثبت مقدرتهم للقيام بهذه المهمة العظيمة."
+    address: "المكاتب 221 - 254 - 293 - 349 مركز هان بلس للأعمال -بناء النفوس , شارع دوغان, إسنيورت ميدان ,إسنيورت ,اسطنبول - تركيا"
+    telephone1: "الهاتف الثابت 9009 699 212 0090"
+    telephone2: "الهاتف الثابت 4041 620 212 0090"
+    mobile1: "الهاتف الجوال : 1142 768 553 0090"
+    mobile2: "الهاتف الجوال : 3522 022 050 0090"
+    email: "البريد الإلكتروني : info@agile-tec.com"
+
+  
+  mainmenu:
+    homename: "الرئيسية"
+    courses: "المسارات "
+    aboutname: "حول أجايل"
+    blog: "المدونة "
+    login: "تسجيل دخول"
+    creataccount: "إنشاء حساب"
+    dashboard: "لوحة التحكم"
+  
+  
+  footer:
+    home: "الرئيسية"
+    paths: "المسارات"
+    about: "حول أجايل"
+    blog: "مدونة أجايل"
+    members: "الأعضاء"
+    contact: "اتصل بنا"
+    faqs: "أسئلة مكررة"
+    marketing: "التسويق والإدارة"
+    design: "التصميم الإبداعي"
+    it: "تكنولوجيا المعلومات"
+    lang: "اللغات"
+    header1: "أكاديمية أجايل"
+    socialhead: "تواصل ومشاركة"
+    terms: "الشروط والأحكام وسياسة الإسترجاع"
+    lagalname: "شركة أجايل للحلول التدريبية"
+    lagaladdress: "legaladdress"
+    copymark: "جميع الحقوق محفوظة ©"
+    companyname: "أكاديمية أجايل"
+    allrights: "جميع الحقوق محفوظة"
+    ethical: "القانون الأخلاقي والقواعد العامة"
+    smterms: "الشروط والأحكام"
+    
+    
+  blog:
+    newblogtitle: "إنشاء مقالة"
+    
+    
+  tronname: "أكاديمية أجايل"
+  membername: "الأعضاء "
+  logingname: "تسجيل دخول"
+  createusergname: "إنشاء حساب جديد"
+  dashboardgname: "لوحة التحكم"
+  logoutgname: "تسجيل الخروج"
+  searchbutton: "بحث"
+  searchplaceholder: "أي عنوان تريد"
+
+  cta:
+    homecta1: "إبدأ مشوار النجاح"
+    livecta1: "إنضم لمحاضرة أونلاين"
+    livectaintro: "يمكنك عزيزي الطالب الإنضمام لدروس البث المباشر من هنا"
+    explore-more: "استكشف المسار"
+    gohome: "عودة للصفحة الرئيسية"
+    
+  featured-cta:
+    certificate-h1: "شهادات عالمية"
+    certificate-txt: "لقد عملنا ذلك فقط لأجلك، لأننا نعرف كم هو مهم بالنسبة لك أن تكون مسلح  بشهادات مباشرة من الهيئات المانحة العالمية مثل أمازون، جوجل، هوت سبوت، بيرسون وأكثر من ذلك"
+    pathway-h1: "مسارات التعلم"
+    pathway-txt: "قام مدرسوا وأكاديمية أجايل بالتحضيرات اللازمة لحصولكم على خبرات عملية ومطلوبة لسوق العمل من تسويق وصيانة إلكترونية وبرمجة مواقع والتصوير والمزيد ."
+    distancelearning-h1: "منصات تعليم عن بعد"
+    distancelearning-txt: "تقدم لكم أجايل كل ما يلزم من منصات وأدوات تعليم عن بعد وذلك لوصولكم للمعرفة قبل وصولكم لمقاعد الدراسة متبعين بذلك منهجية -النجاح ولا أقل من ذلك"
+    readmore: "إقرأ المزيد"
+
+    
+    
+  featured-pathways:
+    header: "مسارات مميزة"
+    small: " اختر طريقك الأن"
+    marketing: "التسويق والإدارة"
+    marketing-intro: "التسويق بطريقة إن باوند, أنظمة إدارة المحتوى, غوغل أدوردز, فيسبوك الأعمال, والمزيد من دورات التسويق والإدارة."
+    design: "التصميم الإبداعي"
+    design-intro: "برامج معالجة الصور , برامج معالجة الفيديوهات, برامج تصميم الثلاثية الأبعاد, التصوير الضوئي, والمزيد من البرامج الإبداعية"
+    it: "تكنولوجيا المعلومات"
+    it-intro: "تصميم مواقع وأنظمة الويب, برمجة عامة, جافا, روبي, جافا سكريبت, برامج معالجة النصوص والجداول أوفيس , والمزيد."
+    lang: "اللغات"
+    lang-intro: "تقدم أكاديمية أجايل كورسات لغة إنجليزية معتمدة من منظمات عالمية بكتب أصلية مع مدربين معتمدين لتدريس المناهج الدولية."
+
+  featured-courses:
+    header: "كورسات مميزة"
+    small: " تعلم المزيد"
+    inbound: "تسويق بنظرية INBOUND"
+    inbound-intro: "تعتبر نظرية إن باوند مبدءاً لعمل استراتيجية الكترنية للظهور وتعديل المحتوى على مواقع التواصل الإجتماعي وعلى المواقع الرسمية للشركات."
+    Adwords: "Adwords From Google"
+    Adwords-intro: "كورس أكاديمي يؤهل الطالب دخول امتحان غوغل أدوردز والنجاح وفهم كافة مفاهيم وخبايا التسويق على منصة أدوردز من غوغل."
+    Facebook: "فيسبوك الشركات"
+    Facebook-intro: "بعد التطور الهائل على منصة فيسبوك وإتساع أدوات ومفاهيم التسويق على هذا الموقع العملاق يعتبر من الضروري فهم كيفية عمله."
+    
+  courses:
+    breadcrumb-home: "الرئيسية"
+    breadcrumb-paths: "المسارات"
+    breadcrumb-marketing: "الأعمال والتسويق"    
+    breadcrumb-design: "التصميم الإبداعي" 
+    breadcrumb-it: "تكنولوجيا المعلومات" 
+    breadcrumb-lang: "اللغات"
+    
+  paths:
+    pathcontacttitle: "تفاصيل التواصل للمسار"
+    pathdetail: "تفاصيل المسار"
+    pathvideotitle: "مقدمة للمسار"
+    
+    marketing-pathquot: "بغض النظر اذا ما كنت بشركة عملاقة أو شركة متوسطة أو صغيرة فإن أساسيات التسويق الناجح هي ذاتها. وذلك لكون أننا مخلوقات عاطفية تعمل بمنطق بحث متطابق"
+    marketing-pathquottold: "بيث كومستوك"
+    marketing-pathdetailbody: "في هذه المسار ستتحسن قدرتك عزيزي الطالب على تأليف وإدارة المحتوى الإلكتروني وكيفية تقديمه بواسطة وسائل التواصل الإجتماعي ومحركات البحث وتحسين قدرة المتحتوى على الظهور بنتائج البحث المجاني والمزيد."
+    marketing-pathcontact1: "محمود مطر"
+    marketing-pathcontact2: "1142 768 (0553)"
+    marketing-pathcontact3: "mahmoud@agile-tec.com"
+    
+    design-pathquot: "There are three responses to a piece of design – yes, no, and WOW! ...."
+    design-pathquottold: "Milton Glaser"
+    design-pathdetailbody: "In this path you will improve your design and creativity skills with most wanted program and systems in photo editing, video and 3D."
+    design-pathcontact1: "Mahmoud Matar"
+    design-pathcontact2: "(0553) 768 1142"
+    design-pathcontact3: "mahmoud@agile-tec.com"
+    
+    it-pathquot: "The real problem is not whether machines think but whether men do."
+    it-pathquottold: "B.F.Skinner Quotes"
+    it-pathdetailbody: "This path structured to fulfil your passion in information technology whether that in Programing or Networking or DB or any other IT related hot titles."
+    it-pathcontact1: "Mahmoud Matar"
+    it-pathcontact2: "(0553) 768 1142"
+    it-pathcontact3: "mahmoud@agile-tec.com"
+    
+    lang-pathquot: "You can never understand one language until you understand at least two."
+    lang-pathquottold: "Geoffrey Willans"
+    lang-pathdetailbody: "it goes without saying, when you speak more than 1 language you can find another place to be. We provide a powerful language learning courses directly from Pearson UK and we are authorized center."
+    lang-pathcontact1: "Mahmoud Matar"
+    lang-pathcontact2: "(0553) 768 1142"
+    lang-pathcontact3: "mahmoud@agile-tec.com"

@@ -1,0 +1,140 @@
+<%= render 'shared/carusel.ar' %>
+
+<!-- Page Content 
+<div class="container">
+        <!-- Heading Row 
+        <div class="row">
+            <div class="col-md-8">
+                <img class="img-responsive img-rounded" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/homepage/head/homepage1.jpg" alt="agile academy">
+            </div>
+            <!-- /.col-md-8 
+            <div class="col-md-4" dir="rtl">
+                <h1><%= t('tronname') %></h1>
+                <p style="font-family:Tahoma, Geneva, sans-serif; font-size:16px"><%= t('company.intro') %></p>
+                <a class="btn btn-primary btn-lg" href="#"><%= t('cta.homecta1') %></a>
+            </div>
+            <!-- /.col-md-4 
+        </div>
+        <!-- /.row -->  
+        
+        
+        <!-- Content Row -->
+        <hr>
+        <div class="row" dir="rtl">
+            <div class="col-md-8">
+                <a href="ar/cta/pathway"><img class="img-responsive img-rounded" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/homepage/cta/distance.jpg" alt="distance learning"></a>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h2><i class="fa fa-desktop" aria-hidden="true"> <%= t('featured-cta.distancelearning-h1') %></h2></i>
+                <p style="font-family:Tahoma, Geneva, sans-serif; font-size:14px"><%= t('featured-cta.distancelearning-txt') %></p>
+                <a class="btn btn-primary btn-xs" href="ar/cta/pathway"><%= t('featured-cta.readmore') %></a>
+            </div>
+            <!-- /.col-md-4 -->
+        </div>
+        <!-- /.row -->   
+        
+        
+        
+    <!-- Section Header -->
+    <div class="row" dir="rtl">
+        <div class="col-lg-12">
+            <h1 class="page-header"><%= t('featured-pathways.header') %><small><%= t('featured-pathways.small') %></small></h1>
+        </div>
+    </div>
+    <!-- /.row -->
+    
+    
+    <!-- Row 1 -->
+    <div class="row" dir="rtl">
+        <div class="col-md-3 portfolio-item">
+            <a href="ar/pages/marketing"><img class="img-responsive" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/homepage/paths/marketing.jpg" alt=""></a>
+            <h3 style="font-family:Tahoma, Geneva, sans-serif; font-size:20px"><%= link_to t('featured-pathways.marketing'), pages_marketing_path %></h3>
+            <p style="font-family:Tahoma, Geneva, sans-serif; font-size:14px"><%= t('featured-pathways.marketing-intro') %></p>
+            <hr>
+        </div>
+        <div class="col-md-3 portfolio-item">
+            <a href="ar/pages/design"><img class="img-responsive" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/homepage/paths/graphic-design.jpg" alt=""></a>
+            <h3 style="font-family:Tahoma, Geneva, sans-serif; font-size:20px"><%= link_to t('featured-pathways.design'), pages_design_path %></h3>
+            <p style="font-family:Tahoma, Geneva, sans-serif; font-size:14px"><%= t('featured-pathways.design-intro') %></p>
+            <hr>
+        </div>
+        <div class="col-md-3 portfolio-item">
+            <a href="ar/pages/it"><img class="img-responsive" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/homepage/paths/technology.jpg" alt=""></a>
+            <h3 style="font-family:Tahoma, Geneva, sans-serif; font-size:20px"><%= link_to t('featured-pathways.it'), pages_it_path %></h3>
+            <p style="font-family:Tahoma, Geneva, sans-serif; font-size:14px"><%= t('featured-pathways.it-intro') %></p>
+            <hr>
+        </div>
+        <div class="col-md-3 portfolio-item">
+            <a href="ar/pages/lang"><img class="img-responsive" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/homepage/paths/language.jpg" alt=""></a>
+            <h3 style="font-family:Tahoma, Geneva, sans-serif; font-size:20px"><%= link_to t('featured-pathways.lang'), pages_lang_path %></h3>
+            <p style="font-family:Tahoma, Geneva, sans-serif; font-size:14px"><%= t('featured-pathways.lang-intro') %></p>
+            <hr>
+        </div>
+    </div>
+    <!-- /.row -->
+
+
+
+
+
+
+    
+    <!-- Section Header -->
+    <div class="row" dir="rtl">
+        <div class="col-lg-12">
+            <h1 class="page-header"><%= t('featured-courses.header') %><small><%= t('featured-courses.small') %></small></h1>
+        </div>
+    </div>
+    <!-- /.row -->
+    
+    
+    <!-- Courses Row -->
+    <div class="row" dir="rtl">
+        <div class="col-md-4 portfolio-item">
+            <a href="ar/courses/inbound"><img class="img-responsive" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/homepage/courses/inbound.jpg" alt=""></a>
+            <h3 style="font-family:Tahoma, Geneva, sans-serif; font-size:20px"><%= link_to t('featured-courses.inbound'), courses_inbound_path %></h3>
+            <p style="font-family:Tahoma, Geneva, sans-serif; font-size:14px"><%= t('featured-courses.inbound-intro') %></p>
+            <hr>
+        </div>
+        <div class="col-md-4 portfolio-item">
+            <a href="ar/courses/adword"><img class="img-responsive" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/homepage/courses/adword.jpg" alt=""></a>
+            <h3 style="font-family:Tahoma, Geneva, sans-serif; font-size:20px"><%= link_to t('featured-courses.Adwords'), courses_adword_path %></h3>
+            <p style="font-family:Tahoma, Geneva, sans-serif; font-size:14px"><%= t('featured-courses.Adwords-intro') %></p>
+            <hr>
+        </div>
+        <div class="col-md-4 portfolio-item">
+            <a href="ar/courses/facebook"><img class="img-responsive" src="https://s3.eu-central-1.amazonaws.com/images-agile-academy/images/homepage/courses/facebook.jpg" alt=""></a>
+            <h3 style="font-family:Tahoma, Geneva, sans-serif; font-size:20px"><%= link_to t('featured-courses.Facebook'), courses_facebook_path %></h3>
+            <p style="font-family:Tahoma, Geneva, sans-serif; font-size:14px"><%= t('featured-courses.Facebook-intro') %></p>
+            <hr>
+        </div>
+    </div>
+    <!-- /.row -->    
+    
+    
+        <!-- Heading Row -->
+        <div class="row well">
+            <div class="col-md-8" dir="rtl">
+                <p style="font-family:Tahoma, Geneva, sans-serif; font-size:16px"><%= t('cta.livectaintro') %></p>
+            </div>
+            <!-- /.col-md-8 -->
+            <div class="col-md-4" align="center">
+                <a class="btn btn-primary" href="#"><%= t('cta.livecta1') %></a>
+            </div>
+            <!-- /.col-md-4 -->        
+        </div>
+        <!-- /.row -->          
+    
+    
+        <!-- Call to Action Well -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="well text-center">
+                        This is a well that is a great spot for a business tagline or phone number for easy access!
+                    </div>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <hr>
+    </div>
