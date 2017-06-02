@@ -67,10 +67,14 @@
 }
 
 .navbar {
-  margin-bottom: 5px;
+  margin-bottom: 0;
 }
 
 .minilogo {
   padding: 5px;
 }
 
+.carousel-inner>.item>img, 
+.carousel-inner>.item>a>img{
+  width: 100%;
+}
